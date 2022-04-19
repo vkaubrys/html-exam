@@ -1,0 +1,255 @@
+body {
+    margin: 15px 40px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-top {
+    float: right;
+}
+
+.header-1 {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.header-1 a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h5 {
+    color: #777777;
+}
+
+h6 {
+    color: #ff3998;
+    text-transform: uppercase;
+}
+
+.button {
+    border-radius: 15px;
+    border-color: #ff3998;
+    height: 30px;
+    width: 76px;
+    left: 56px;
+    top: 22px;
+    float: left;
+}
+
+.container-1 {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ height: auto;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.text-container-1 {
+    text-align: left;
+    float: left;
+}
+
+.graphic {
+    height: 350px;
+    width: 350px;
+    float: right;
+    left: 125px;
+    top: 110px;
+    border-radius: 0;
+}
+
+.bg {
+    height: auto;
+    width: 100%;
+}
+
+.container-2 {
+    position: relative;
+    text-align: center;
+    
+}
+
+.bottom-left-1 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    text-align: left;
+}
+
+
+.names-1 {
+    padding-top: 30px;
+}
+
+.names-1 a {
+    font-size: 20px;
+    width: 19%;
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    display: inline-block;
+}
+
+.grey{
+    color: #777777;
+}
+
+.dark-grey {
+    color: #555555;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+ .card {
+     width: 290px;
+     display: grid;
+     padding: 15px 0;
+ }
+
+.container-text {
+    background-color: #cccccc;
+    padding: 2px 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.left {
+    list-style: none;
+    float: left;
+    padding: 5px 5px;
+}
+
+.right {
+    list-style: none;
+    text-align: end;
+    padding: 5px 5px;
+}
+
+.left-top {
+    color: #ff8139;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.left-center {
+    color: #111111;
+    font-size: x-large;
+}
+
+.left-bottom {
+    color: #999999;
+    font-size: x-large;
+}
+
+.right-top {
+    color: #999999;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.right-center {
+    color: #111111;
+    font-size: x-large;
+}
+
+.right-bottom {
+    color: #999999;
+    font-size: x-large;
+}
+
+.container-4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 0;
+    border-bottom: #999999 1px solid;  
+    border-top: #999999 1px solid;
+}
+
+.text-container-4 {
+    text-align: left;
+    float: left;
+}
+
+.image-2 {
+    height: 300px;
+    width: 300px;
+    float: right;
+    left: 125px;
+    top: 110px;
+    border-radius: 0;
+}
+
+.social {
+    filter: grayscale(200%);
+}
+
+.left-footing {
+    padding-top: 35px;
+}
+
+.right-footing {
+   display: flex;
+   flex-wrap: nowrap;
+
+}
+
+.right-footing a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.about-1, .nft-1, .contact-1, .social-1 {
+    list-style: none;
+}
+
+.about, .nft, .contact, .social-2 {
+    color: #555555;
+    text-align: center;
+}
+
+.wrapper{
+    padding: 40px 0;
+}
+
+.span-right {
+    float: right;
+}
+
+@media screen and (min-width: 736px) {
+    #cards {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
